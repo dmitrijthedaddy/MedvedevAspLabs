@@ -12,7 +12,6 @@ namespace Lab5_Ajax
         protected void Page_Load(object sender, EventArgs e)
         {
             string script = "return confirm('Вы уверены?')";
-            //Button.Attributes.Add("onclick", script);
         }
 
         protected void Button_Click(object sender, EventArgs e)
